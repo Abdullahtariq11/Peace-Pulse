@@ -1,0 +1,77 @@
+.tab {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #3d3c3c;
+  }
+  
+  .tab li {
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab li:hover {
+    background-color: #555;
+  }
+  
+  .tab li.active {
+    background-color: #007bff;
+  }
+
+
+.Surah-container {
+    max-height: 600px; 
+   
+    border: 2px solid #ccc; /* Define the outline */
+    margin-top: 10px;
+   
+  
+    position: relative;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+   
+    
+  }
+
+  
+  .surah-card {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 50%; /* Make it circular */
+    padding: 10px;
+    color: #333; /* Lighter color for text */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0; /* Lighter background color */
+    width: 100px; /* Adjust size */
+    height: 120px; /* Adjust size */
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .surah-card:hover{
+    background-color:#c8c5c5 ;
+    cursor: pointer;
+  }
+  
+  
+  .surah-card p.bold {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+
+  
+
+  

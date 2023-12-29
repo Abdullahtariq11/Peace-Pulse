@@ -1,0 +1,81 @@
+.prayer-track-container {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    overflow-y: scroll;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: 3px solid #ccc;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .prayer-form,
+  .edit-form,
+  .prayed-checkboxes {
+    background-color: #948787;
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+    
+    min-height: 70px; /* Set a minimum height */
+  }
+  
+  .current-date {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .prayer-checkboxes label,
+  .prayed-checkboxes label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .save-button,
+  .set-prayer-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-dropdown {
+    margin-right: 10px;
+  }
+  
+  .date-input {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .save-button {
+    background-color: #479ce1;
+    margin-left: 10px;
+    max-width: 100px;
+  }
+
+  .save-button:hover {
+    background-color: #018bfb;
+
+  }
+  
+  /* Updated CSS for the dropdowns */
+  
+   .prayer-checkboxes select {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+    margin-left: 10px;
+  }
+  
+  

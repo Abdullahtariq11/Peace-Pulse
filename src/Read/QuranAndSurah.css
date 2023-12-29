@@ -1,0 +1,19 @@
+/* QuranAndSurah.css */
+
+.Qr-Sur-container {
+  display: flex;
+  flex-direction: column; /* Stack panels vertically */
+  align-items: center; /* Center horizontally */
+  gap: 10px; /* Space between panels */
+ 
+}
+
+.mid-panel {
+  padding: 20px; /* Padding for SurahList */
+}
+
+.bottom-panel {
+  width: 100%; /* Occupy full width */
+  /* Enable scrolling if content exceeds */
+  padding: 10px; /* Padding for ReadSurah */
+}

@@ -1,0 +1,50 @@
+/* PrayerTimings.css */
+
+/* Base styles for the container */
+.PrayerTimings {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text within the container */
+  
+    
+  }
+  
+  /* Heading styles */
+  .PrayerTimings-heading {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #000000;
+    z-index: 1; /* Ensure text appears above the overlay */
+    
+  }
+  
+  /* Reset list styles */
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* List item styles */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Nested list indentation */
+  ul ul {
+    padding-left: 20px;
+  }
+  
+  /* Strong tag emphasis */
+  strong {
+    font-weight: bold;
+    color: #000000;
+  }
+
+  

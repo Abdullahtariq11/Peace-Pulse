@@ -1,0 +1,24 @@
+/* SurahList.css */
+
+.SurahList-container {
+    margin-top: 10px; /* Adjust margins as needed */
+    padding: 10px;
+    
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 3px solid #ccc;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  select:hover,
+  select:focus {
+    border-color: #171717;
+  }
+  

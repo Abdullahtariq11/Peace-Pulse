@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Peace-Pulse-frontend/static/css/main.a8761360.css",
+    "main.js": "/Peace-Pulse-frontend/static/js/main.aa6b452c.js",
+    "static/media/prayer1.jpg": "/Peace-Pulse-frontend/static/media/prayer1.a4b1ef1d956b94e53a25.jpg",
+    "static/media/prayer.webp": "/Peace-Pulse-frontend/static/media/prayer.04ce593652a1b0672a1d.webp",
+    "static/media/logo.jpg": "/Peace-Pulse-frontend/static/media/logo.d7f2002d9967f00d30a1.jpg",
+    "static/media/facebook.png": "/Peace-Pulse-frontend/static/media/facebook.8d51a55626e9bf107f8f.png",
+    "index.html": "/Peace-Pulse-frontend/index.html",
+    "main.a8761360.css.map": "/Peace-Pulse-frontend/static/css/main.a8761360.css.map",
+    "main.aa6b452c.js.map": "/Peace-Pulse-frontend/static/js/main.aa6b452c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8761360.css",
+    "static/js/main.aa6b452c.js"
+  ]
+}

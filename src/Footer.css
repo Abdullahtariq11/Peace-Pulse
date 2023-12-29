@@ -1,0 +1,77 @@
+/* Footer.css */
+
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center content */
+  }
+  
+  .left {
+    margin-left: 5px;
+    align-items: center;
+  }
+  .right {
+  
+    align-items: center;
+    margin: 10px;
+  }
+  .right img{
+  
+    align-items: center;
+    margin: 5px;
+  }
+  
+  .contact {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 10px; /* Add margin-right for space */
+  }
+  .right span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left img {
+    margin-top: 10px; /* Add margin-left for space */
+  }
+
+  .contact {
+    font-size: 14px;
+    margin: 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .footer-container img {
+    max-height: 40px;
+  }
+  
+  .logoContainerFooter img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px; /* Adjust the width and height as needed */
+    transition: transform 0.3s ease; /* Added transition property */
+  }
+  
+  .logoContainerFooter img:hover {
+    transform: scale(1.1);
+  }
+  
+  .right .social-icon {
+    max-height: 30px;
+  }
+  
+  .logoContainerFooter, .right .social-icon:hover {
+    transform: scale(1.1);
+  }
+  .right .social-icon:hover{
+    cursor: pointer;
+  }
+  

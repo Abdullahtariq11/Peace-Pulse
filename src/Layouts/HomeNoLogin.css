@@ -1,0 +1,47 @@
+/* HomeNoLogin.css */
+
+/* Style for the whole container */
+.HomeNoLogin {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  /* Navbar styles */
+  /* Add your Navbar styling here */
+  
+  /* Home container styles */
+ /* HomeNoLogin.css */
+
+/* Home container styles */
+.home-container {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+
+
+  }
+  
+  
+  /* Heading styles */
+  .home-heading {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #000000;
+    z-index: 1; /* Ensure text appears above the overlay */
+  }
+  
+  /* Wording styles */
+  .home-wording {
+    font-size: 1.2em;
+    color: #000000;
+    margin-bottom: 20px;
+    z-index: 1; /* Ensure text appears above the overlay */
+  }
+  
+  /* PrayerTimings container styles */
+  .prayerTimings-container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  

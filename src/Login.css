@@ -1,0 +1,60 @@
+/* CSS for the signup form */
+
+/* Container styles */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 50px;
+  }
+  
+  
+   h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form container */
+  .login  {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Form fields */
+  .login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .login input[type="name"],
+  .login input[type="email"],
+  .login input[type="password"] {
+    width: calc(100% - 20px); /* Adjusting width to account for padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button */
+  .login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login button:hover {
+    background-color: #0056b3;
+  }
+  

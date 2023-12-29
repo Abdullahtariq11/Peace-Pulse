@@ -1,0 +1,10 @@
+.App {
+    background-color: #f5f5f5;
+    background-image: url('./Assets/prayer.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,134 @@
+/* Navbar.css */
+
+/* Style for the header element */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    
+  }
+  /* In your CSS file */
+.Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+  
+  /* Style for the NavbarContainer */
+  .Navbar{
+    padding: 0px 20px;
+    margin: 0;
+  }
+  
+  /* Style for the ul element */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  }
+  
+  /* Style for the li elements */
+  li {
+    margin: 0 10px;
+    display: inline-block;
+    
+  }
+  .Navlinks li{
+    padding: 0 10px;
+  }
+  
+  /* Style for the left-aligned li element (logo) */
+  .left {
+    margin-right: auto;
+    
+  }
+  
+  /* Style for the logo image */
+  img {
+    max-height: 100px; /* Adjust the max height as needed */
+  }
+  
+  /* Optional: Style for text in li elements */
+  .Navlinks li {
+    color: #fff;
+    font-weight: bold;
+    
+  }
+/* Style for the logo image container */
+.logoContainer {
+  border-radius: 50%;
+  overflow:hidden;
+  width: 100px; /* Adjust the width and height as needed */
+  height: 100px; /* Adjust the width and height as needed */
+  transition: transform 0.3s ease; /* Added transition property */
+}
+
+/* Style for the logo image */
+.logoContainer img {
+  max-width: 100%;
+  height: auto;
+}
+/* Added a hover effect */
+.logoContainer:hover {
+  transform: scale(1.1); /* Increase the scale factor for a zoom effect */
+}
+  
+  /* Optional: Hover effect for li elements */
+  .Navlinks li:hover {
+   
+    background-color: #222222;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    
+   
+  }
+  .navlist{
+    display: flex;
+    align-content: space-between;
+  }
+
+  /* Added a media query for responsiveness */
+@media (max-width: 768px) {
+  .Navbar {
+    padding: 10px 0; /* Adjust padding for smaller screens */
+  }
+
+  .container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start; /* Align items to the start of the container */
+
+  }
+
+  .Navlinks {
+    margin-top: 10px; /* Add some space between the logo and links */
+    
+  }
+
+  .left {
+    margin: 0; /* Reset margin for logo */
+    margin-bottom: 10px; /* Add space between logo and links */
+  }
+
+  .Navlinks li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Reset margin for li elements */
+    padding: 5px 0; /* Add some vertical padding for li elements */
+  }
+
+  .logoContainer {
+    width: 60px; /* Adjust width and height for smaller logo */
+    height: 60px;
+  }
+
+  .logoContainer img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+  
